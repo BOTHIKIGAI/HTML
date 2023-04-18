@@ -1,1 +1,24 @@
-!DOC
+<!--
+
+    Elementos basicos de una pagina web
+
+    1. Encabezado
+    2. Menu de navegacion
+    3. Imagenes destacadas
+    4. Contenido del sitio web
+    5. Llamado a la accion (CTA)
+    6. Formulario
+    7. Informacion de contacto
+    8. Pie de pagina
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        Hola Mundo
+    </head>
+</html>
+
+
