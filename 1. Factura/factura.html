@@ -25,6 +25,8 @@
 
     </style>
 
+    <link rel="stylesheet" href="style.css">
+
     <head>
 
         <title>Factura</title>
@@ -49,38 +51,55 @@
 
         <BR></BR>
 
-        <table>
-            
-            <tr>
-                <th>Orden N</th>
-                <th><input type="text" name="" id="" placeholder="Numero de Orden" ></th>
-            </tr>
-            <tr>
-                <th>Cliente</th>
-                <th><input type="text" name="" id="" placeholder="Nombre de cliente"></th>
-            </tr>
-            <tr>
-                <th>Nombre</th>
-                <th><input type="text" name="" id="" placeholder="Nombres"></th>
-            </tr>
-            <tr>
-                <th>Apellido</th>
-                <th><input type="text" name="" id="" placeholder="Apellidos"></th>
-            </tr>
-            <tr>
-                <th>Genero</th>
-                <th><input type="radio" name="Genero" id="">Hombre <input type="radio" name="Genero" id="">Mujer <input type="radio" name="Genero" id="">Otro</th>
-            </tr>
-            <tr>
-                <th>Tipo de Pago</th>
-                <th><input type="radio" name="TipoPago" id="">Efectivo <input type="radio" name="TipoPago" id="">Tarjeta <input type="radio" name="TipoPago" id="">Cheque</th>
-            </tr>
+        <center>
 
-        </table>
+            <table>
+                
+                <tr>
+                    <th>Orden N</th>
+                    <th><input type="text" name="" id="" placeholder="Numero de Orden" ></th>
+                </tr>
+                <tr>
+                    <th>Cliente</th>
+                    <th><input type="text" name="" id="" placeholder="Nombre de cliente"></th>
+                </tr>
+                <tr>
+                    <th>Nombre</th>
+                    <th><input type="text" name="" id="" placeholder="Nombres"></th>
+                </tr>
+                <tr>
+                    <th>Apellido</th>
+                    <th><input type="text" name="" id="" placeholder="Apellidos"></th>
+                </tr>
+                <tr>
+                    <th rowspan="3">Genero</th>
+                    <th><input type="radio" name="Genero" id="">Hombre
+                </tr>
+                <tr>
+                    <th><input type="radio" name="Genero" id="">Mujer </th>
+                </tr>
+                <tr>
+                    <th><input type="radio" name="Genero" id="">Otro </th>
+                </tr>
 
-        <BR></BR>
+                <tr>
+                    <th rowspan="3">Tipo de pago</th>
+                    <th><input type="radio" name="Pago" id="">Efectivo
+                </tr>
+                <tr>
+                    <th><input type="radio" name="Pago" id="">Tarjeta </th>
+                </tr>
+                <tr>
+                    <th><input type="radio" name="Pago" id="">Cheque</th>
+                </tr>
 
-        <input type="button" value="Guardar"> 
+            </table>
+
+            <BR></BR>
+
+            <input type="button" value="Guardar" > 
+
+        </center>
         
     </body>
 
