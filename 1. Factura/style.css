@@ -3,6 +3,7 @@ body {
     background-repeat: repeat;
     background-position: center;
     background-attachment: scroll;
+    opacity: 0.95;
 
 }
 
