@@ -1,7 +1,9 @@
-form {
-    background-image: url("logosenabackground.png");
-    background-repeat: no-repeat;
+table {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.233), rgba(255, 255, 255,0.233)),url("https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/b9/00/6b/b9006bd5-86b5-57ac-1190-5dfff9d292e8/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png");
+    background-size: 500px;
+    background-repeat: repeat;
     background-position: center;
     background-attachment: scroll;
     
+
 }
