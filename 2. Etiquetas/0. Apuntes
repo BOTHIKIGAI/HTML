@@ -1,0 +1,55 @@
+<!-- Negrita -->
+<strong>Hola Mundo</strong>
+
+<!--Encabezados
+Exsiten 6 tipos de encabezados, el primero es el mas grande y el ultimo el menos grande
+-->
+<h1>Encabezado 1</h1>
+<h2>Encabezado 2</h2>
+<h3>Encabezado 3</h3>
+<h4>Encabezado 4</h4>
+<h5>Encabezado 5</h5>
+<h6>Encabezado 6</h6>
+
+<!-- Salto de linea    
+El elemento salto de linea break <br> produce un salto del linea en el texto
+(retorno de carro). Es util para escribir un pema o una direccion, donde la 
+division de las lineas es significante.
+-->
+
+<br>
+
+<!-- Unordered list
+ul de "unordered list" -lista no ordenada . crea una lista no ordenada.: 
+Sus etiquetas son: <ul> y </ul> (ambas obligatorias). Está definido como: 
+Elemento para listas. Crea una caja: En bloque. Puede contener: Uno o más 
+elementos li
+-->
+
+<ul>
+    <li>punto uno</li>
+    <li>punto dos</li>
+    <li>punto tres</li>
+</ul>
+
+<!-- Ordenend list
+El elemento ol permite definir listas o viñetas ordenadas (“Ordered List”),
+bien con numeración o alfabéticamente.
+Sus etiquetas son: <ol> y </ol> (ambas obligatorias).
+
+-->
+
+<ol>
+    <li>punto uno</li>
+    <li>punto dos</li>
+    <li>punto tres</li>
+</ol>
+
+<!-- Lista 
+La etiqueta <li> en HTML se utiliza para definir el elemento de la lista 
+en un documento HTML. Se usa dentro de una Lista Ordenada <ol> o Lista No 
+Ordenada <ul>
+    
+-->
+
+

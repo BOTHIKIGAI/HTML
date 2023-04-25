@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <body>
+            <h1>Resume</h1>
+            <strong>Name: </strong>Paul <br>
+            <strong>Address: </strong>123 Maple Ave <br>
+            <strong>Email: </strong> paul@email.com <br>
+
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML programming</li>
+                <li>JavaScript Programming</li>
+                <li>Help Documentacion</li>
+            </ul>
+        </body>
+    </head>
+</html>
