@@ -1,3 +1,29 @@
+<!-- HTML
+Etiqueta "container" para todo el documento HTML. Todas las demás etiquetas
+están escritas en el elemento HTML.
+-->
+<html></html>
+
+<!-- Head
+Contenedor de encabezado. Por lo general, el encabezado incluye referencias
+a otros archivos que necesita la página o el sitio. También puede incluir 
+datos que los motores de búsqueda y los sitios de redes sociales usan para 
+que sea más sencillo encontrar su sitio web.
+-->
+<head></head>
+
+<!-- Body
+Esta etiqueta crea el contenedor body para la página web. La mayoría de los
+elementos de visualización van en el elemento body.
+-->
+<body> </body>
+
+<!-- Div
+La etiqueta de división crea una sección en el HTML. Por lo general, las 
+secciones tienen contenido similar o contenidos que se relacionan entre sí.
+-->
+<div></div>
+
 <!-- Negrita -->
 <strong>Hola Mundo</strong>
 

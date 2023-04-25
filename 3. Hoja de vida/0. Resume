@@ -4,6 +4,10 @@
     </head>
     <body>
         <h1>Juan Esteban Cajiao Madero</h1>
+        <!--about me-->
+        Email: juaenes@email.com <br>
+        Address: Avenida Porgramacion
+
         <!--email address-->
         <h2>Social Media</h2>
         <!--social media-->
@@ -11,5 +15,11 @@
         <!--education-->
         <h2>Experience</h2>
         <!--experiencia-->
+        <ol>
+            <li>Amazon Web Service</li>
+            <li>Azure</li>
+            <li>Python Org</li>
+            <li>Grupo BAS</li>
+        </ol>
     </body>
 </html>
