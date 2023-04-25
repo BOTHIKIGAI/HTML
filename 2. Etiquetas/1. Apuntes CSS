@@ -1,0 +1,97 @@
+/* Cambiar color a las etiquetas H1, H2,... */ 
+
+h1 {
+    color: orange;
+}
+
+/* 
+
+    Se observa cuatro cosas:
+
+    1. La etiqueta h1 (la cual va a recibir el estilo)
+    2. La propiedad color, la cual esta determinando el color de H1
+    3. Las llaves dentro de las cuales se encuentra almacenada la propiedad color, sin estas llavas
+       no se podra determinar el color para h1 
+    4. Despues de cualquier propiedad se debe poner punto y coma (;)
+
+*/
+
+
+/* font - family */
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* 
+
+    La propiedad font-family define una lista de fuentes o familias de 
+    fuentes, con un orden de prioridad, para utilizar en un elemento 
+    seleccionado. A diferencia de la mayoría de las propiedades CSS, los 
+    valores se separan con comas (",") para indicar que son valores 
+    alternativos.
+
+*/
+
+
+/* font-weight */
+
+p {
+    font-weight: bold;
+}
+
+/* 
+
+    La propiedad font-weight de CSS especifica el peso o grueso de la letra.
+     Algunos tipos de letra sólo están disponibles en normal y bold.
+
+*/
+
+
+/* font - style */
+
+p {
+    font-style: italic;
+}
+
+/* 
+
+    La propiedad font-style permite definir el aspecto de una familia 
+    tipográfica entre los valores: normal, italic (cursiva) y oblique.
+
+*/
+
+
+/* text - decoration */
+
+p {
+    text-decoration: line-through;
+}
+
+/* 
+
+    La propiedad CSS text-decoration se usa para establecer el formato de 
+    texto a subrayado (underline) y suprarrayado (overline), tachado 
+    (line-through) o parpadeo (blink). El subrayado y el suprarrayado son 
+    posicionados bajo el texto, mientras la línea a través de éste se 
+    posiciona por encima.
+
+*/
+
+
+/* font-size */
+
+p {
+    font-size: 17px;
+}
+
+/* 
+
+    La propiedad font-size especifica la dimensión de la letra. Este tamaño
+    puede, a su vez, alterar el aspecto de alguna otra cosa, ya que se usa
+    para calcular la longitud de las unidades em y ex.
+
+*/ 
+
+

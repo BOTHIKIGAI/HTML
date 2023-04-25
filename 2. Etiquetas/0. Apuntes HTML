@@ -12,6 +12,13 @@ que sea más sencillo encontrar su sitio web.
 -->
 <head></head>
 
+<!-- Vincular archivo CSS o <link>: The External Resource Link element
+
+Para incluir una hoja de estilos en una página, use la siguiente sintaxis:
+-->
+
+<link href="style.css" rel="stylesheet">
+
 <!-- Body
 Esta etiqueta crea el contenedor body para la página web. La mayoría de los
 elementos de visualización van en el elemento body.
@@ -97,7 +104,7 @@ etiqueta de apertura y suelen ser un nombre emparejado con un valor (lo que
 <!-- Imagenes o Elemento incrustado de imagen
 El elemento de imagen HTML <img> representa una imagen en el documento.
 
-El atributo alt dentro de img define el texto alternativo que describe la
+El atribusto alt dentro de img define el texto alternativo que describe la
 imagen, texto que los usuarios verán si la URL de la imagen es errónea o 
 la imagen tiene un formato no soportado o si la imagen aún no se ha 
 descargado.
