@@ -78,4 +78,33 @@ Ordenada <ul>
     
 -->
 
+<li></li>
+
+<!-- Hipervinculos o elemento ancla
+El Elemento HTML Anchor <a> crea un enlace a otras páginas de internet, 
+archivos o ubicaciones dentro de la misma página, direcciones de correo, 
+o cualquier otra URL
+
+El recurso al que se hace referencia se indica con un atributo denominado 
+href (o referencia de hipertexto). Los atributos se agregan dentro de la 
+etiqueta de apertura y suelen ser un nombre emparejado con un valor (lo que
+ se denomina "pares clave-valor"), con el valor incluido entre comillas.
+
+-->
+
+<a href=""></a>
+
+<!-- Imagenes o Elemento incrustado de imagen
+El elemento de imagen HTML <img> representa una imagen en el documento.
+
+El atributo alt dentro de img define el texto alternativo que describe la
+imagen, texto que los usuarios verán si la URL de la imagen es errónea o 
+la imagen tiene un formato no soportado o si la imagen aún no se ha 
+descargado.
+
+El atributo src se usa para apuntar a la ubicación de la imagen que se va a
+mostrar en la página
+-->
+
+<img src="" alt="">
 
