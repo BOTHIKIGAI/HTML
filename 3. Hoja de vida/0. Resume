@@ -5,14 +5,23 @@
     <body>
         <h1>Juan Esteban Cajiao Madero</h1>
         <!--about me-->
-        Email: juaenes@email.com <br>
-        Address: Avenida Porgramacion
-
+        Address: Avenida Porgramacion <br>
         <!--email address-->
+        <a href="mailto:juanes@programer.com">juanes@programer.com</a>
+        
         <h2>Social Media</h2>
         <!--social media-->
+        <u>
+            <li><a href="https://github.com/BOTHIKIGAI">Github</a></li>
+            <li><a href="www.linkedin.com/in/jestebancajiao">LinkedIn</a></li>
+        </u>
+        
         <h2>Education</h2>
         <!--education-->
+        
+        <h3>Colegio Minuto de Dios</h3>
+        <h3>SENA</h3>
+
         <h2>Experience</h2>
         <!--experiencia-->
         <ol>
@@ -20,6 +29,7 @@
             <li>Azure</li>
             <li>Python Org</li>
             <li>Grupo BAS</li>
+            
         </ol>
     </body>
 </html>
