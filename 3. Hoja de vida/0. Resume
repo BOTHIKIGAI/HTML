@@ -1,35 +1,65 @@
 <html>
     <head>
         <title>Juanes Resume</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .dv-bolt-it{
+                font-weight: 600;
+                font-style: italic;
+            }
+
+            #ul-square {
+                list-style: square;
+            }
+        </style>
     </head>
     <body>
         <h1>Juan Esteban Cajiao Madero</h1>
         <!--about me-->
-        Address: Avenida Porgramacion <br>
+        <div class="dv-bolt-it">Address: Avenida Porgramacion </div>
+        
         <!--email address-->
-        <a href="mailto:juanes@programer.com">juanes@programer.com</a>
+        <div class="dv-bolt-it">Email: juanes@programer.com</div>
         
-        <h2>Social Media</h2>
-        <!--social media-->
-        <u>
-            <li><a href="https://github.com/BOTHIKIGAI">Github</a></li>
-            <li><a href="www.linkedin.com/in/jestebancajiao">LinkedIn</a></li>
-        </u>
-        
+        <div id="social-media">
+            <h2>Social Media</h2>
+            <!--social media-->
+            <u>
+                <li><a href="https://github.com/BOTHIKIGAI">Github</a></li>
+                <li><a href="www.linkedin.com/in/jestebancajiao">LinkedIn</a></li>
+            </u>
+        </div>
+
         <h2>Education</h2>
         <!--education-->
         
         <h3>Colegio Minuto de Dios</h3>
         <h3>SENA</h3>
 
+        <ul>
+            <li>ADSO</li>
+            <li>variables y estructuras de datos de python</li>
+        </ul>
+
         <h2>Experience</h2>
         <!--experiencia-->
-        <ol>
-            <li>Amazon Web Service</li>
-            <li>Azure</li>
-            <li>Python Org</li>
-            <li>Grupo BAS</li>
+        
+        <div class="experience">
+
+            <ul id="ul-square">
+                <li>Apple</li>
+                <li>Amazon</li>
+                <li>SENA</li>
+                <li>Grupo BAS</li>
+            </ul>
+
+           
+
+        <div class="experiencia">
+
             
-        </ol>
+
+        </div>
+        
     </body>
 </html>
