@@ -1,0 +1,148 @@
+<!-- Especificar la versión HTML navegador a usar, esto es un nodo, no una etiqueta -->
+<!DOCTYPE html>
+
+<!-- Dentro de la etiqueta HTML se declara todo el contenido-->
+<html>
+
+    <!-- Ingresar metadatos dentro de la etiqueta HEAD, que tipos de archivos a cargar -->
+    <head>
+
+        <!-- meta data -->
+        <meta charset="utf-8"> 
+            <!-- Codificación -->
+
+        <meta name="viewport" content="width=device-with"> 
+            <!--
+                Especificar que el sitio sera adaptable, el ancho del contenido 
+                es el ancho de la pantalla 
+            -->
+
+        <title>Portfolio de @JuanesDev</title> 
+            <!-- Titulo de la pestaña navegador - importante para el CEO -->
+
+        <meta name="robots" content="index, follow"> 
+            <!-- Metadato importante para google, en el cual se indica la indexacion de la pagina -->
+
+        <meta name="description" content="Portfolio de @JuanesDev desarrollador full-stack junior"> 
+            <!-- 
+                Esta metadata description esta relacionada al como se muestra 
+                información sobre nuestra pagina web.
+            -->
+        
+        <!-- OPEN GRAPH -->
+        <meta property="og:title" content="Portfolio de un desarrollador full-stack">
+        <meta property="og:description" content="Portfolio de @JuanesDev desarrollador full-stack junior">
+        <meta property="og:image" content="/images/juanes_profile.jpg">
+        <meta property="og:alt" content="Fotografia de Juan Esteban o @JuanesDev">
+            <!-- 
+                La manera por medio de la cual se muestran recomendaciones en internet es por CEO y esto ayuda
+                a la generación de la información, especificandose asi que se muestra.
+            -->
+
+        <!-- Link -->
+        <link rel="icon" href="/images/logo.webp" type="images/webp">
+            <!--
+                El atributo type permite indicar el tipo de archivo que se usara, en este caso un webp.
+                El atributo rel significa relacion, este definie el tipo de enlaze que sera.
+            -->
+
+        <link rel="alternate" href="https://juanesDev.dev/en" hreflang="en-en">
+            <!-- 
+                Si contamos con la pagina traducida se puede crear una redirección mediante la identificación del idioma
+                establecida en el navegador del usuario
+            -->
+        
+        <link rel="canonical" href="https://juanesDev.dev">
+            <!--
+                Con este link y su rel canonical definimos cual es la pagina original y asi el CEO no identificara paginas
+                repetidas
+            -->
+        
+        <!-- Style -->
+        <style>
+
+            body {
+                background: #afb6c4;
+            }
+
+        </style>
+            <!-- Se define el estilo mediante etiqueta o cargando un archivo por medio de un link -->
+
+    </head>
+
+    <!-- Cuerpo del HTML donde se renderiza todo lo marcado -->
+    <body>     
+
+        <!-- Titulo --> 
+        <h1>Portfolio de @JuanesDev 🧑‍💻</h1>
+
+        <!-- Parrafo -->
+        <p>
+            <strong>6 meses de experiencia</strong>  como desarrollador full-stack.
+            Tecnologo en Analisis y desarrollo de software del SENA. 
+            <strong>Campeón de la competencia nacional de SENA SOFT</strong> en la categoria de <strong>Automatización de prueba</strong> 
+            Desarrollador de la fabrica de software en la creación del proeycto <strong>Gestion de horarios del SENA y monitoreo de cultivos con IA.</strong>
+        </p>
+
+        <!-- Lista -->
+            <!-- Lista desordenada -->
+        <h2>Experiencia</h2>
+        <ul>
+            <li class="list-item">2023 - SENASOFT - Octubre - Pereira</li>
+            <li class="list-item">2023 - 2024 - Fabrica de Software SENA - Proyecto Gestión de horarios y monitoreo de cultivos</li>
+            <li class="list-item">2024 - Grupo ASD - Junio</li>
+        </ul>
+            <!-- El atributo class permite brindar un identificador para varios elementos -->
+
+        <!-- Imagen -->
+        <img title="@JuanesDev" src="/images/juanes_profile.jpg" alt="Fotografia de Juan Esteban o @JuanesDev" id="photo-image">
+            <!-- 
+                Tiene un atributo llamado source o src el cual se usa para definir la imagen que se desea cargar
+                Existen atributos globales y atributos expecificos para ciertas etiquetas
+                El atributo alt permite que si la imagen no carga se muestre el texto o que si una persona tiene
+                alguna discapacidad visual sepa que se esta mostrando en pantalla
+                El atributo title es un elemento que permite que al posicionar el mouse encima de la imagen el mouse
+                aparesca un titulo al lado del cursor 
+                El atributo id es un identificador unica y aunque se puede aplicar a otros elementos no es buena practica usarlo de esa manera
+            -->
+
+        
+
+        <!-- Dato curioso -->
+            <!-- Las comillas no son obligatorias si no existen espacios en la cadena de texto -->
+            <!-- Existen atributos booleanos, por lo que no es necesario agregar false, unicamente con agregarlo ya funciona como true -->
+            <!-- 
+                Existen metadatos que son unicamente para ciertos navegadores, por ejemplo,
+                <meta name="theme-color" content="#09f">
+                este funciona para safari y android, cambiando el color de la parte de arriba del navegador
+            -->
+
+
+        <!-- Tipos de elementos
+
+            Elemento normal con apertura y cierre 
+        <p>Profile</p>
+
+            Elemento remplazable sin cierre, ejemplo, imagen
+        <img src="/images/juanes_profile.jpg" alt="">
+
+            Elemento remplazable sin cierre, ejemplo, input
+        <input type="range">
+
+        -->
+
+        <!-- Estilos por defecto -->
+            <!-- 
+                Existen unos estilos por defento los cuales son llamados "user agent stylesheet", estos provienen
+                de cada navegador y cada uno le brinda un estilo propio, en la mayoria de casos.
+            -->
+
+        <!-- HTML Semantico -->
+            <!-- 
+                Describir la marcación del contenido con solo leerlo, es importante ya que tiene significado
+                lo creado, describiendo el contenido de manera correcta.
+            -->
+
+    </body>
+
+</html>
